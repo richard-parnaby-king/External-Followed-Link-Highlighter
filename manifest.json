@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "External Link Checker",
+  "description": "Checks all links on a page for any external links that do not have the attribute rel=\"nofollow\"",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+	"permissions": ["activeTab"],
+	"background": {
+    "scripts": ["background.js"],
+    "persistent": false
+	}
+}
