@@ -1,15 +1,11 @@
-Chrome Extension: External Link Checker
-=======================================
+Chrome Extension: External Followed Link Highlighter
+====================================================
 
-A simple extension that checks for external links on a webpage that do not have the attribute rel="nofollow"
+A simple extension that checks for external links on a webpage that do not have the attribute rel="nofollow" and highlights them with a red border.
 
 ## Installation
 
-Copy the files into a folder on your computer.
-
-In Chrome, navigate to `chrome://extensions/`. Make sure the 'Developer mode' checkbox has been ticked.
-
-Click on the 'Load unpackaged extension' button, and navigate to the folder that contains these files.
+Download the "<a href="">External Followed Link Highlighter.crx</a>" file.
 
 ## Usage
 
