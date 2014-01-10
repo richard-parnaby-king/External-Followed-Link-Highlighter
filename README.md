@@ -5,7 +5,7 @@ A simple extension that checks for external links on a webpage that do not have 
 
 ## Installation
 
-Download the "<a href="">External Followed Link Highlighter.crx</a>" file.
+Download the "<a href="https://github.com/richard-parnaby-king/External-Link-Checker/raw/master/External%20Followed%20Link%20Highlighter.crx">External Followed Link Highlighter.crx</a>" file.
 
 ## Usage
 
