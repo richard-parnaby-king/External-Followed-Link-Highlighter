@@ -14,3 +14,7 @@ Click on the 'Load unpackaged extension' button, and navigate to the folder that
 ## Usage
 
 Click on the newly created browser button to show any external links on the current webpage that do not have the attribute rel="nofollow"
+
+## Options
+
+Via the options page for this plugin the user may auto-enable the plugin, meaning that every page the user visits will automatically show any external followed links.

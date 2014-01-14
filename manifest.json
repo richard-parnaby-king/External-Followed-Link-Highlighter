@@ -15,10 +15,12 @@
       "128": "icon.png"
    },
 
+	"options_page": "options/options.html",
+
   "browser_action": {
     "default_icon": "icon.png"
   },
-	"permissions": ["activeTab"],
+	"permissions": ["tabs","storage","http://*/*", "https://*/*"],
 	"background": {
     "scripts": ["background.js"],
     "persistent": false

@@ -3,7 +3,7 @@
  * @copyright: Richard Parnaby-King
  * @url: http://richard.parnaby-king.co.uk
  */
-//get all links that contain 'http', are not links to the current host, and do not contain the rel="nofollow" attribute
+ //get all links that contain 'http', are not links to the current host, and do not contain the rel="nofollow" attribute
 var result = document.evaluate("//a[contains(@href,\"http\") and not(contains(@href, \"" + location.host + "\")) and not(contains(@rel, \"nofollow\"))]",
 																document.documentElement,
 																null,
