@@ -115,17 +115,6 @@ div.shell {
   margin: 0 auto;
 }
 
-a#forkme_banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 138px;
-  height: 138px;
-  display: block;
-  background: transparent url(fork-sprite.png) 0 0 no-repeat;
-  text-indent: -9000px;
-  z-index: 3;
-}
 
 a#forkme_banner:hover {
   background-position: 0 -138px;
@@ -150,16 +139,6 @@ header span.ribbon-inner {
   z-index: 1;
 }
 
-header span.left-tail, header span.right-tail {
-  position: relative;
-  display: block;
-  width: 56px;
-  height: 105px;
-  background: transparent url(ribbon-tail-sprite.png) 0 0 no-repeat;
-  position: absolute;
-  bottom: -37px;
-  z-index: 0;
-}
 
 header span.left-tail {
   background-position: 0 0;
@@ -180,7 +159,7 @@ header h1 {
   color: #ece4d8;
   text-align: center;
   line-height:1;
-  padding: 14px 20px 0;
+  padding: 14px 20px;
 }
 
 header h2 {
@@ -252,7 +231,7 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 20px 82px 0;
+  padding: 50px 82px 0;
   min-height:185px;
 }
 
