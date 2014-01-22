@@ -4,9 +4,9 @@
   "name": "External Followed Link Highlighter",
 	"short_name": "Link Highlighter",
   "description": "Checks all links on a page for any external links that do not have the attribute rel=\"nofollow\" and highlights them in a red border.",
-  "version": "1.1",
+  "version": "1.2",
 	"author":"Richard Parnaby-King",
-	"homepage_url": "https://github.com/richard-parnaby-king/External-Followed-Link-Highlighter/",
+	"homepage_url": "https://github.com/richard-parnaby-king/External-Followed-Link-Highlighter",
 	"icons": {
       "128": "icon.png"
    },

@@ -1,9 +1,9 @@
 // Saves options to localStorage.
 function save_options() {
-  var el = document.getElementById("autoenable");
-  var value = el.checked ? "checked":"unchecked";
-	
-	chrome.storage.local.set({'autoenable': value}, function() {
+  var autoenable = document.getElementById("autoenable").checked ? "checked":"unchecked",
+			colour = document.getElementById('colour').value;
+
+	chrome.storage.local.set({'autoenable': autoenable, 'colour':colour}, function() {
 		// Update status to let user know options were saved.
 		var status = document.getElementById("status");
 		status.innerHTML = "Options Saved.";
@@ -23,6 +23,16 @@ function restore_options() {
 		
 		var el = document.getElementById("autoenable");
 		el.checked = value == "checked" ? "checked" : '';
+  });
+	
+	chrome.storage.local.get("colour", function(value) {
+		value = value.colour;
+		if (value === undefined || !value) {
+			value = '#ff0000'; //red
+		}
+
+		var el = document.getElementById("colour");
+		el.value = value;
   });
 	
 }

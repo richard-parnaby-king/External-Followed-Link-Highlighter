@@ -9,9 +9,17 @@ var result = document.evaluate("//a[contains(@href,\"http\") and not(contains(@h
 																null,
 																XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
 
-//add a red border around each link
-for (var i=0; i<result.snapshotLength; i++) {
-	result.snapshotItem(i).style.border='1px dashed red';
-}
-
+//get colour from settings
+var colour = '#ff0000';
+chrome.storage.local.get("colour", function(value) {
+	value = value.colour;
+	if(value !== undefined) {
+		colour = value;
+	}
+	
+	//add a red border around each link
+	for (var i=0; i<result.snapshotLength; i++) {
+		result.snapshotItem(i).style.border='1px dashed ' + colour;
+	}
+});
 

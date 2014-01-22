@@ -17,4 +17,6 @@ Click on the newly created browser button to show any external links on the curr
 
 ## Options
 
-Via the options page for this plugin the user may auto-enable the plugin, meaning that every page the user visits will automatically show any external followed links.
+Auto enable for all websites
+
+Select colour for link highlighter
