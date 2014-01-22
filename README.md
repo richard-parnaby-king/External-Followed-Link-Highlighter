@@ -11,6 +11,8 @@ In Chrome, navigate to `chrome://extensions/`. Make sure the 'Developer mode' ch
 
 Click on the 'Load unpackaged extension' button, and navigate to the folder that contains these files.
 
+Alternatively, the plugin can be installed directly from the <a href="https://chrome.google.com/webstore/detail/external-followed-link-hi/ldppbkmjichlgoknicpibbekkajojclb">Chrome Store</a>
+
 ## Usage
 
 Click on the newly created browser button to show any external links on the current webpage that do not have the attribute rel="nofollow"
